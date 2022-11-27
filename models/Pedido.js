@@ -2,16 +2,16 @@ const mongoose = require("mongoose");
 
 const esquemaPedido = new mongoose.Schema(
   {
-    usuarioId: { Type: String, required: true },
+    usuarioId: { type: String, required: true },
     produtos: [
       {
-        produtoId: { Type: String },
-        quantidade: { Type: Number, default: 1 },
+        produtoId: { type: String },
+        quantidade: { type: Number, default: 1 },
       },
     ],
-    valorTotal: { Type: Number, required: true },
-    enderecoUsuario: { Type: Object, required: true },
-    status: { Type: String, default: "pendente" },
+    valorTotal: { type: Number, required: true },
+    enderecoUsuario: { type: Object, required: true },
+    status: { type: String, default: "pendente" },
   },
   {
     timestamps: true,

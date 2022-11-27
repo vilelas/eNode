@@ -2,11 +2,11 @@ const mongoose = require("mongoose");
 
 const esquemaCarrinho = new mongoose.Schema(
   {
-    usuarioId: { Type: String, required: true },
+    usuarioId: { type: String, required: true },
     produtos: [
       {
-        produtoId: { Type: String },
-        quantidade: { Type: Number, default: 1 },
+        produtoId: { type: String },
+        quantidade: { type: Number, default: 1 },
       },
     ],
   },
