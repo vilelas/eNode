@@ -81,8 +81,8 @@ router.post("/login", async (req, res) => {
       { expiresIn: "3d" }
     );
 
-    const { senha, ...others } = usuario._doc;
-    //res.status(200).json({ ...others, token });
+    const { senha, ...info } = usuario._doc;
+    //res.status(200).json({ ...info, token });
 
     res.status(200).json({ mensagem: "login efetuado com sucesso!", token });
   } catch (error) {
