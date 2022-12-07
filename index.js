@@ -7,6 +7,8 @@ const mongoose = require("mongoose");
 const authRoute = require("./routes/auth");
 const usuariosRoute = require("./routes/usuario")
 const produtosRoute = require("./routes/produto");
+const carrinhosRoute = require("./routes/carrinho");
+const pedidosRoute = require("./routes/pedido");
 
 mongoose
   .connect(process.env.MONGO_URL)
@@ -23,6 +25,8 @@ app.use(express.json());
 app.use("/api/auth", authRoute);
 app.use("/api/usuarios", usuariosRoute);
 app.use("/api/produtos", produtosRoute);
+app.use("/api/carrinhos", carrinhosRoute);
+app.use("/api/pedidos", pedidosRoute);
 
 app.listen(5000, () => {
   console.log("O servidor está rodando!");
