@@ -44,7 +44,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ### Configurando as variáveis de ambiente
 
-Crie seu próprio arquivo .env baseado em .env.example (Crie uma instância mongoDB no Atlas MongoDB e cole a url do banco de dados e atribua a variável `MONGO_URL`, gere uma hash aleatória e atribua a `SECRET` e também crie uma conta no Stripe e cole a variável key e atribua a `STRIPE_KEY`)
+Crie seu próprio arquivo .env baseado em .env.example (Crie uma instância mongoDB no Atlas MongoDB e cole a url do banco de dados e atribua à variável `MONGO_URL`, gere uma hash aleatória e atribua à `SECRET` e também crie uma conta no Stripe e cole a variável key e atribua à `STRIPE_KEY`)
 
 ### Rodando o Back End (servidor)
 
