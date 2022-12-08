@@ -3,12 +3,12 @@
 
 ## Tabela de conteúdo:
 
-* [Tecnologias]()
-* [Features]()
-* [Como Usar]()
-    * [Pré-requisitos]()
-    * [Variáveis de ambiente]()
-    * [Rodando a aplicação]()
+* [Tecnologias](https://github.com/vilelas/Nodejs-E-Commerce#tecnologias)
+* [Features](https://github.com/vilelas/Nodejs-E-Commerce#features)
+* [Como Usar](https://github.com/vilelas/Nodejs-E-Commerce#como-usar)
+    * [Pré-requisitos](https://github.com/vilelas/Nodejs-E-Commerce#pr%C3%A9-requisitos)
+    * [Variáveis de ambiente](https://github.com/vilelas/Nodejs-E-Commerce#configurando-as-vari%C3%A1veis-de-ambiente)
+    * [Rodando a aplicação](https://github.com/vilelas/Nodejs-E-Commerce#rodando-o-back-end-servidor)
 
 
 ## Tecnologias
