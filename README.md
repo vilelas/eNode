@@ -48,7 +48,7 @@ Além disso, você precisará criar uma conta no Stripe e obter a sua chave de A
 
 Aqui está um exemplo do que seu arquivo .env poderia parecer:
 
-```
+```js
 MONGO_URL=mongodb://[username]:[password]@[host]:[port]/[database]
 SECRET=sua_hash_aleatoria
 STRIPE_KEY=sua_chave_de_api_do_stripe
