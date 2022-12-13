@@ -1,5 +1,7 @@
 ## Node.js E-Commerce
-> E-commerce API REST usando Node.js, MongoDB, JWT e Stripe (como meio de pagamento). 
+> Essa API REST de e-commerce é construída utilizando o Node.js, um framework de JavaScript que facilita o desenvolvimento de aplicativos web de alta performance. O MongoDB é utilizado como banco de dados para armazenar os dados da API, enquanto o JWT (JSON Web Token) é utilizado para autenticação de usuários.
+
+> Por fim, o Stripe é utilizado como meio de pagamento para permitir que os usuários efetuem pagamentos online de maneira segura e confiável.
 
 ## Tabela de conteúdo:
 
@@ -44,7 +46,19 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ### Configurando as variáveis de ambiente
 
-Crie seu próprio arquivo .env baseado em .env.example (Crie uma instância mongoDB no Atlas MongoDB e cole a url do banco de dados e atribua à variável `MONGO_URL`, gere uma hash aleatória e atribua à `SECRET` e também crie uma conta no Stripe e cole a variável key e atribua à `STRIPE_KEY`)
+Para criar seu próprio arquivo .env, você precisará criar uma instância do MongoDB no Atlas MongoDB. Depois de criar a instância, copie a URL do banco de dados e atribua-a à variável ``MONGO_URL`` no seu arquivo .env. Em seguida, gere uma hash aleatória e atribua-a à variável ``SECRET`` no seu arquivo .env. Isso irá ajudar a manter sua aplicação segura.
+
+Além disso, você precisará criar uma conta no Stripe e obter a sua chave de API. Copie a chave de API e atribua-a à variável ``STRIPE_KEY`` no seu arquivo .env. Isso permitirá que você use o Stripe para processar pagamentos em sua aplicação.
+
+Aqui está um exemplo do que seu arquivo .env poderia parecer:
+
+```
+MONGO_URL="mongodb://[username]:[password]@[host]:[port]/[database]"
+SECRET="sua_hash_aleatoria"
+STRIPE_KEY="sua_chave_de_api_do_stripe"
+```
+
+Lembre-se de manter seu arquivo .env seguro e protegido, pois ele contém informações sensíveis, como suas credenciais de banco de dados e chave de API do Stripe.
 
 ### Rodando o Back End (servidor)
 
