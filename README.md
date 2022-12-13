@@ -29,12 +29,8 @@ Abaixo estão todas as tecnologias usadas nesse projeto.
 
 - [x] Login e Cadastro
 - [x] Autenticação e Autorização de rotas com JWT
-- [x] Atualização de dados do usuário
-- [x] Exclusão de cadastro
-- [x] Listar todos os usuários
-- [x] Buscar um usuário
 - [x] Contagem de usuário por data de criação
-- [x] CRUD para os models Pedido, Carrinho e Produto
+- [x] CRUD para os models Pedido, Carrinho, Produto e Usuário
 
 ## Como Usar
 
