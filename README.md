@@ -1,4 +1,4 @@
-## Node.js E-Commerce
+## eNode
 > Essa API REST de e-commerce é construída utilizando o Node.js, um framework de JavaScript que facilita o desenvolvimento de aplicativos web de alta performance. O MongoDB é utilizado como banco de dados para armazenar os dados da API, enquanto o JWT (JSON Web Token) é utilizado para autenticação de usuários.
 
 > Por fim, o Stripe é utilizado como meio de pagamento para permitir que os usuários efetuem pagamentos online de maneira segura e confiável.
@@ -60,10 +60,10 @@ Lembre-se de manter seu arquivo .env seguro e protegido, pois ele contém inform
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/vilelas/Nodejs-E-Commerce
+$ git clone https://github.com/vilelas/eNode
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd Nodejs-E-Commerce
+$ cd eNode
 
 # Instale as dependências
 $ npm i
